@@ -716,10 +716,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: bf997ce3-6f45-4b49-89e6-c9e0c9cb3594
+  cloudProjectId: 7967c752-7382-4bdb-b83c-25412ff446cb
   framebufferDepthMemorylessMode: 0
-  projectName: New Unity Project
-  organizationId: bigchair
+  projectName: BehindTheScenes
+  organizationId: binarykitten-f99aa271-6882-47a2-8d96-d3dcd618fe18
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
