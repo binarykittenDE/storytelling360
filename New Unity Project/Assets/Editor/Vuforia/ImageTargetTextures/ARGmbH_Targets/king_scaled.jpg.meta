@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0d67765a444449d78cbc72fb968bd66b
+=======
+guid: 5557c299e3654d058e7b0d6517f80427
+>>>>>>> VirtualButton
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}

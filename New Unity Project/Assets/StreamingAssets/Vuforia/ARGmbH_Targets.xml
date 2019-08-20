@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+<<<<<<< HEAD
     <ImageTarget name="blue_poster" size="0.500000 0.263310" />
     <ImageTarget name="tattoo" size="1.000000 2.972652" />
     <ImageTarget name="photo_of_table" size="1.500000 1.125000" />
+=======
+    <ImageTarget name="WandMarker" size="2.000000 1.500000" />
+    <ImageTarget name="photo_of_table" size="1.500000 1.125000" />
+    <ImageTarget name="marker_base" size="0.100000 0.177801" />
+>>>>>>> VirtualButton
     <ImageTarget name="king" size="0.100000 0.182297" />
   </Tracking>
 </QCARConfig>

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bbeedf67e6c4b904880e44cb8c61a20f
+=======
+guid: 9071406659e0a6c4e85fc6ab6522ed6e
+>>>>>>> VirtualButton
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
