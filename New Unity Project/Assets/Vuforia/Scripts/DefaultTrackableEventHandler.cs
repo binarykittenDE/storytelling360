@@ -6,8 +6,11 @@ All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
+using System.Collections;
 using UnityEngine;
 using Vuforia;
+using UnityEngine.UI;
+using Image = UnityEngine.UI.Image;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -109,9 +112,18 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 component.enabled = true;
 
             targetFinderSprite.SetActive(false);
+
+            // StartCoroutine(TurnOffTracking());
+            ChangeUIStatus(true);
         }
     }
 
+    IEnumerator TurnOffTracking()
+    {
+        yield return new WaitForSeconds(2); //Keeping a delay of 2 seconds after the image has been tracked
+
+        TrackerManager.Instance.GetTracker<ObjectTracker>().Stop(); //Tracking will be stopped and the objects that have been positioned after getting tracked will be in the same position in world space
+    }
 
     protected virtual void OnTrackingLost()
     {
@@ -133,8 +145,23 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in canvasComponents)
                 component.enabled = false;
 
-            //previewtarget.SetActive(true);
+            ChangeUIStatus(false);
         }
+    }
+
+    private void ChangeUIStatus(bool isFound)
+    {
+        Image uiStatusRect = GameObject.Find("TrackerStatusPanel").GetComponent<Image>();
+
+        if(isFound)
+        {
+            uiStatusRect.color = Color.green;
+        } else
+        {
+            uiStatusRect.color = Color.red;
+        }
+
+
     }
 
     #endregion // PROTECTED_METHODS
