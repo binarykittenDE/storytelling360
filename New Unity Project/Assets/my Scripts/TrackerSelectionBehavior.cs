@@ -10,12 +10,12 @@ public class TrackerSelectionBehavior : MonoBehaviour, IPointerClickHandler
     {
         if(name.Equals("Panel Poster"))
         {
-            SceneManager.LoadScene("ImageTrackerScene");
+            SceneManager.LoadScene("1_ImageTrackerScene");
         }
 
-        else if (name.Equals("Panel Tisch"))
+        else if (name.Equals("Panel Hof"))
         {
-            SceneManager.LoadScene("GroundPlaneScene");
+            SceneManager.LoadScene("2_GroundPlaneScene");
         }
     }
 }

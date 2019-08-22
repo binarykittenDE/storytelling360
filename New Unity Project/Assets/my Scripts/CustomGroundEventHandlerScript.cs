@@ -6,11 +6,11 @@ All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using Vuforia;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Image = UnityEngine.UI.Image;
 
 /// <summary>
@@ -19,8 +19,11 @@ using Image = UnityEngine.UI.Image;
 /// Changes made to this file could be overwritten when upgrading the Vuforia version.
 /// When implementing custom event handler behavior, consider inheriting from this class instead.
 /// </summary>
-public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
+
+public class CustomGroundEventHandlerScript : MonoBehaviour, ITrackableEventHandler
 {
+    public GameObject helpTextPanel;
+    
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -107,19 +110,9 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
             foreach (var component in canvasComponents)
                 component.enabled = true;
 
-            ChangeUIStatus(true);
-
-            StartCoroutine(LoadNextScene());
+            helpTextPanel.SetActive(false);
         }
     }
-
-    IEnumerator LoadNextScene()
-    {
-        yield return new WaitForSeconds(2);
-
-        SceneManager.LoadScene("2_GroundPlaneScene");
-    }
-
 
     protected virtual void OnTrackingLost()
     {
@@ -140,26 +133,14 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
             // Disable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = false;
-
-            ChangeUIStatus(false);
         }
     }
 
-    private void ChangeUIStatus(bool isFound)
+    public void BackToMainMenu()
     {
-        Image uiStatusRect = GameObject.Find("TrackerStatusPanel2").GetComponent<Image>();
-
-        if (isFound)
-        {
-            uiStatusRect.color = Color.green;
-        }
-        else
-        {
-            uiStatusRect.color = Color.red;
-        }
-
-
+        SceneManager.LoadScene("0_TrackerSelectionScene");
     }
+
 
     #endregion // PROTECTED_METHODS
 }
