@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="hofladen_target" size="1.000000 0.750000" />
+    <ImageTarget name="kueche_target" size="1.000000 1.054293" />
+    <ImageTarget name="glock_target" size="1.000000 2.148148" />
+    <ImageTarget name="sitzgruppe_target" size="1.000000 0.489655" />
+    <ImageTarget name="Flur" size="3.000000 2.250000" />
     <ImageTarget name="blue_poster" size="0.500000 0.263310" />
-    <ImageTarget name="tattoo" size="1.000000 2.972652" />
-    <ImageTarget name="photo_of_table" size="1.500000 1.125000" />
     <ImageTarget name="king" size="0.100000 0.182297" />
   </Tracking>
 </QCARConfig>
