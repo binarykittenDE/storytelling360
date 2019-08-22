@@ -1,16 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundCon : MonoBehaviour
 {
     public AudioClip[] aClips;
     public AudioSource myAudioSource;
     string btnName;
+   // public MovieTexture movie;
+    //public RawImage videostream;
+    
+
+
 
     // Use this for initialization
     void Start () {
             myAudioSource = GetComponent<AudioSource>();
+           // videostream = GameObject.Find("RawImageVideo").GetComponent<RawImage>();
+
     }
     
     // Update is called once per frame
@@ -47,7 +55,11 @@ public class SoundCon : MonoBehaviour
                         case "myButton6":
                             myAudioSource.clip = aClips[5];
                             myAudioSource.Play();
-                            break;
+                            
+                           // videostream.texture = movie as MovieTexture;
+                           // movie.Play();
+
+                        break;
                         default:
                             break;
 
