@@ -12,6 +12,7 @@ using Vuforia;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Image = UnityEngine.UI.Image;
+using UnityEngine.Video;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -149,6 +150,9 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
     {
         Image uiStatusRect = GameObject.Find("TrackerStatusPanel2").GetComponent<Image>();
 
+        VideoPlayer vp = uiStatusRect.GetComponent<VideoPlayer>();
+        vp.sou 
+
         if (isFound)
         {
             uiStatusRect.color = Color.green;
@@ -157,8 +161,6 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
         {
             uiStatusRect.color = Color.red;
         }
-
-
     }
 
     #endregion // PROTECTED_METHODS
