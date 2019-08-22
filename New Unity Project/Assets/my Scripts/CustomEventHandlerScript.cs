@@ -12,7 +12,6 @@ using Vuforia;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Image = UnityEngine.UI.Image;
-using UnityEngine.Video;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -149,9 +148,6 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
     private void ChangeUIStatus(bool isFound)
     {
         Image uiStatusRect = GameObject.Find("TrackerStatusPanel2").GetComponent<Image>();
-
-        VideoPlayer vp = uiStatusRect.GetComponent<VideoPlayer>();
-        vp.sou 
 
         if (isFound)
         {
