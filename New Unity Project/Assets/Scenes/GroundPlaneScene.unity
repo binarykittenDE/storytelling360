@@ -636,7 +636,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Vuforia.ContentPlacedEvent, Vuforia.UnityExtensions, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  mDisplayAdvanced: 0
+  mDisplayAdvanced: 1
 --- !u!114 &2097917708
 MonoBehaviour:
   m_ObjectHideFlags: 0
