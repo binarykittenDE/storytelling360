@@ -9,7 +9,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 using System.Collections;
 using UnityEngine;
 using Vuforia;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Image = UnityEngine.UI.Image;
 
 /// <summary>
@@ -151,9 +151,17 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     private void ChangeUIStatus(bool isFound)
     {
-        Image uiStatusRect = GameObject.Find("TrackerStatusPanel").GetComponent<Image>();
+        var sceneName = SceneManager.GetActiveScene().name;
+        Image uiStatusRect = null;
 
-        if(isFound)
+        if (sceneName.Equals("1_ImageTrackerScene_scenario1"))
+            uiStatusRect = GameObject.Find("TrackerStatusPanel").GetComponent<Image>();
+        else if (sceneName.Equals("1_ImageTrackerScene_scenario2"))
+            uiStatusRect = GameObject.Find("TrackerStatusPanel2").GetComponent<Image>();
+
+
+
+        if (isFound)
         {
             uiStatusRect.color = Color.green;
         } else

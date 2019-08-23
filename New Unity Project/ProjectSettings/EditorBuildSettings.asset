@@ -26,7 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final/Scenario 1/2_GroundPlaneScene_scenario1.unity
     guid: 2bff9d727df08e64e917c195b9378262
+  - enabled: 1
+    path: Assets/Scenes/Final/Scenario 2/1_ImageTrackerScene_scenario2.unity
+    guid: d68e62a95f7cdb340812e838a61efe57
+  - enabled: 1
+    path: Assets/Scenes/Final/Scenario 2/2_GroundPlaneScene_scenario2.unity
+    guid: 09fac96f7d6e46e4b9292505a76ff4ee
   - enabled: 0
-    path: Assets/Scenes/Final/TransifitonToGroundScene.unity
-    guid: 4ea89b6e48f6694458e707cade35e2e7
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
