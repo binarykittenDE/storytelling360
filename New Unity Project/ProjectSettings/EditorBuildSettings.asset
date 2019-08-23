@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/scene_test_01.unity
     guid: f9270521b82d8458885fa3bfd73012b8
   - enabled: 0
-    path: Assets/Scenes/360_sphere_test.unity
-    guid: 6d4d0a771602d4c4ca439d2b137379ca
-  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
@@ -38,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final/Scenario 2/2_GroundPlaneScene_scenario2.unity
     guid: 09fac96f7d6e46e4b9292505a76ff4ee
+  - enabled: 1
+    path: Assets/Scenes/360_sphere_test.unity
+    guid: 6d4d0a771602d4c4ca439d2b137379ca
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
