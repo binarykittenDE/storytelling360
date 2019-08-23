@@ -22,7 +22,17 @@ ModelImporter:
     4300000: staender
     4300002: lampenschirm
     4300004: lampe
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dunkles_metall
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -53,7 +63,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.7
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

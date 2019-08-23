@@ -23,10 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LatestScene.unity
     guid: d02154f66e3d72c4cb73cec4c2a7eaf5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final/Scenario 1/1_ImageTrackerScene_scenario1.unity
     guid: c034c467891c5004093bef141a95251c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final/Scenario 1/2_GroundPlaneScene_scenario1.unity
     guid: 2bff9d727df08e64e917c195b9378262
   - enabled: 1
