@@ -115,9 +115,14 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
 
     IEnumerator LoadNextScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
-        SceneManager.LoadScene("2_GroundPlaneScene");
+        var sceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneName.Equals("1_ImageTrackerScene_scenario1"))
+            SceneManager.LoadScene("2_GroundPlaneScene_scenario1");
+        else if (sceneName.Equals("1_ImageTrackerScene_scenario2"))
+            SceneManager.LoadScene("2_GroundPlaneScene_scenario2");
     }
 
 
