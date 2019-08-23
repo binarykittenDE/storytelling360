@@ -117,8 +117,6 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
     {
         yield return new WaitForSeconds(1);
 
-        //GameObject.Find("Chair").transform.Translate(new Vector3(0, 10, 0));
-
         var sceneName = SceneManager.GetActiveScene().name;
 
         if (sceneName.Equals("1_ImageTrackerScene_scenario1"))
@@ -160,7 +158,7 @@ public class CustomEventHandlerScript : MonoBehaviour, ITrackableEventHandler
         if (sceneName.Equals("1_ImageTrackerScene_scenario1"))
             uiStatusRect = GameObject.Find("TrackerStatusPanel").GetComponent<Image>();
         else if (sceneName.Equals("1_ImageTrackerScene_scenario2"))
-            uiStatusRect = GameObject.Find("TrackerStatusPane2").GetComponent<Image>();
+            uiStatusRect = GameObject.Find("TrackerStatusPanel2").GetComponent<Image>();
 
         if (isFound)
         {
