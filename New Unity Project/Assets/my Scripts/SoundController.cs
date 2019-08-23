@@ -39,22 +39,22 @@ public class SoundController : MonoBehaviour
                 btnName = Hit.transform.name;
                 switch (btnName)
                 {
-                    case "myButton1":
+                    case "audioButton1":
                         myAudioSource.clip = aClips[0];
                         break;
-                    case "myButton2":
+                    case "audioButton2":
                         myAudioSource.clip = aClips[1];
                         break;
-                    case "myButton3":
+                    case "audioButton3":
                         myAudioSource.clip = aClips[2];
                         break;
-                    case "myButton4":
+                    case "audioButton4":
                         myAudioSource.clip = aClips[3];
                         break;
-                    case "myButton5":
+                    case "audioButton5":
                         myAudioSource.clip = aClips[4];
                         break;
-                    case "myButton6":
+                    case "audioButton6":
                         myAudioSource.clip = aClips[5];
                         break;
                     default:
