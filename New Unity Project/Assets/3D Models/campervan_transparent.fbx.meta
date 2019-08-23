@@ -1,28 +1,47 @@
 fileFormatVersion: 2
-guid: b5524b7ed58ac67469b53163e009872f
+guid: 72114dca827854da59071f23c357e5d5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Car
+    100002: fahrerkabine
+    100004: fenster
+    100006: reifen
+    100008: spiegel
+    100010: wohnteil
     400000: //RootNode
-    400002: Car
-    2100000: CarMat
-    2300000: Car
-    3300000: Car
-    4300000: Car
-    2186277476908879412: ImportLogs
+    400002: fahrerkabine
+    400004: fenster
+    400006: reifen
+    400008: spiegel
+    400010: wohnteil
+    2100000: transparent
+    2300000: fahrerkabine
+    2300002: fenster
+    2300004: reifen
+    2300006: spiegel
+    2300008: wohnteil
+    3300000: fahrerkabine
+    3300002: fenster
+    3300004: reifen
+    3300006: spiegel
+    3300008: wohnteil
+    4300000: fahrerkabine
+    4300002: fenster
+    4300004: reifen
+    4300006: spiegel
+    4300008: wohnteil
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarMat
+      name: transparent
     second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 0
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -48,7 +67,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.05
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -68,7 +87,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
