@@ -31,7 +31,17 @@ ModelImporter:
     6400002: RED body
     6400004: sonnenblende
     6400006: stativ
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

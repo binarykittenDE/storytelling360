@@ -45,27 +45,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fahrerkabine
-    second: {fileID: 2100000, guid: b292be725e916d0459f5fb5fb834874c, type: 2}
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fenster
-    second: {fileID: 2100000, guid: 3888659884164914093e070c6a75bb4b, type: 2}
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: reifen
-    second: {fileID: 2100000, guid: 95105f639890e7242b2dac98cc75b82f, type: 2}
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: spiegel
-    second: {fileID: 2100000, guid: c6c99b82c06bc784995e57c1733ab896, type: 2}
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: wohnhaenger
-    second: {fileID: 2100000, guid: 5ca525638a9b71844949db8d31820066, type: 2}
+    second: {fileID: 2100000, guid: bc38149df02bf42bfb7b2275073f1788, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
