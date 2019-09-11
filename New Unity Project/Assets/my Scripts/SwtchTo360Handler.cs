@@ -6,21 +6,26 @@ using UnityEngine.UI;
 
 public class SwtchTo360Handler : MonoBehaviour
 {
-    public void SwitchTo360()
+    public void SwitchTo360_1()
     {
 
-        if (name.Equals("360 Button"))
-        {
+        //if (!name.Equals("360 Button"))
+        //{
             SceneManager.LoadScene("360_sphere_1");
-        }
-        else if (name.Equals("360 Button2"))
+        //}
+        //else if (name.Equals("360 Back Button"))
+        //{
+        //    SceneManager.LoadScene("2_GroundPlaneScene_scenario1");
+        //}
+        
+    }
+
+    public void SwitchTo360_2()
+    {
+
+        if (name.Equals("360 Button2"))
         {
             SceneManager.LoadScene("360_sphere_2");
-        }
-
-        else if (name.Equals("360 Back Button"))
-        {
-            SceneManager.LoadScene("2_GroundPlaneScene_scenario1");
         }
         else if (name.Equals("360 Back Button2"))
         {

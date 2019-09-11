@@ -68,5 +68,8 @@ public class SoundController : MonoBehaviour
                 }
             }
         }
+
+        if (!myAudioSource.isPlaying)
+            myAudioSource.clip = null;
     }
 }
