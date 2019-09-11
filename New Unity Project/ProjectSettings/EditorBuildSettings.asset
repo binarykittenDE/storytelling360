@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Final/Scenario 2/2_GroundPlaneScene_scenario2.unity
     guid: 09fac96f7d6e46e4b9292505a76ff4ee
   - enabled: 1
-    path: Assets/Scenes/360_sphere_test.unity
+    path: Assets/Scenes/Final/Scenario 2/360_sphere_2.unity
     guid: 6d4d0a771602d4c4ca439d2b137379ca
   - enabled: 0
     path: 

@@ -15,6 +15,7 @@ public class SoundCon : MonoBehaviour
     public GameObject imageTarget;
     public GameObject rawImageVideo;
     public GameObject videoPlayerObject;
+    public GameObject closeButton;
    
 
 
@@ -37,6 +38,8 @@ public class SoundCon : MonoBehaviour
         imageTarget.SetActive(false);
         videoPlayerObject.SetActive(true);
         vp.Play();
+
+        closeButton.SetActive(true);
 
         vp.loopPointReached += EndReached;
         Debug.Log("VideoPlayer vp got initiated. Function EndReached is called.");
@@ -95,5 +98,14 @@ public class SoundCon : MonoBehaviour
         imageTarget.SetActive(true);
         rawImageVideo.SetActive(false);
         videoPlayerObject.SetActive(false);
+    }
+
+    public void CloseVideo()
+    {
+        imageTarget.SetActive(true);
+        rawImageVideo.SetActive(false);
+        videoPlayerObject.SetActive(false);
+
+        closeButton.SetActive(false);
     }
 }
