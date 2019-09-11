@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:New Unity Project/Assets/SamplesResources/AugmentationAssets/Materials.meta
 guid: 0c0e3451ca411534e8d2208791ba3e5b
 folderAsset: yes
+=======
+guid: ab71e2f516a614b5fb3a7230caf89a2a
+>>>>>>> 360grad ausrichtung geaendert:New Unity Project/Assets/Vuforia/Databases/ARGmbH_Targets.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
