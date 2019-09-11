@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:New Unity Project/Assets/SamplesResources/SceneAssets/GroundPlane/Materials.meta
 guid: 30e7ebdbe78f543038bd16de10867371
+=======
+guid: e5aa210a368dd450fb4630ace83a5ead
+>>>>>>> 360grad ausrichtung geaendert:New Unity Project/Assets/Resources/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
