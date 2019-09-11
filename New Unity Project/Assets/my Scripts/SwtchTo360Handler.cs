@@ -6,29 +6,25 @@ using UnityEngine.UI;
 
 public class SwtchTo360Handler : MonoBehaviour
 {
-    private bool isIn360 = false;
-
-    public void SwitchTo360(GameObject movieSphere)
+    public void SwitchTo360()
     {
-        //if (!isIn360)
-        //{
-        //    gameObject.GetComponent<Text>().text = "Zurück";
-        //    movieSphere.SetActive(true);
-        //    isIn360 = true;
-        //} else if (isIn360)
-        //{
-        //    gameObject.GetComponent<Text>().text = "360";
-        //    movieSphere.SetActive(false);
-        //    isIn360 = false;
-        //}
 
-        //GameObject.Find("360Sphere").SetActive(true);
-        //GameObject sphere = GameObject.Find("360Sphere").gameObject;
-        movieSphere.SetActive(true);
+        if (name.Equals("360 Button"))
+        {
+            SceneManager.LoadScene("360_sphere_1");
+        }
+        else if (name.Equals("360 Button2"))
+        {
+            SceneManager.LoadScene("360_sphere_2");
+        }
 
-        SceneManager.LoadScene("360_sphere_test");
-
-        //GameObject button = GameObject.Find("360 Button");
-        //button.GetComponent<Text>().text = "Zurück";
+        else if (name.Equals("360 Back Button"))
+        {
+            SceneManager.LoadScene("2_GroundPlaneScene_scenario1");
+        }
+        else if (name.Equals("360 Back Button2"))
+        {
+            SceneManager.LoadScene("2_GroundPlaneScene_scenario2");
+        }
     }
 }
