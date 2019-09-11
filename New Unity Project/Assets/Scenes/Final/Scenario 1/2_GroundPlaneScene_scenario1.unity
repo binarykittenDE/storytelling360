@@ -549,7 +549,6 @@ GameObject:
   m_Component:
   - component: {fileID: 445699224}
   - component: {fileID: 445699226}
-  - component: {fileID: 445699225}
   m_Layer: 5
   m_Name: VideoPanel
   m_TagString: Untagged
@@ -578,35 +577,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -2247, y: -1247.9832}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &445699225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445699223}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
 --- !u!222 &445699226
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1345,7 +1315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5524b7ed58ac67469b53163e009872f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5524b7ed58ac67469b53163e009872f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1381,6 +1351,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5524b7ed58ac67469b53163e009872f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b5524b7ed58ac67469b53163e009872f, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2081,15 +2055,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: 0.071
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.03
+      value: 0.633
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.166
+      value: -0.137
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2122,6 +2096,18 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 55.838
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 55.838
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 176.05777
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2845a5cc1ee314a4788f88fb9a120b6b, type: 3}
@@ -2642,7 +2628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 890e7175e29fd4635a54562eb3bff016, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.104
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 890e7175e29fd4635a54562eb3bff016, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2725,7 +2711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ceaa2585b3fbb247b14e59b8a4a5afe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ceaa2585b3fbb247b14e59b8a4a5afe, type: 3}
       propertyPath: m_LocalPosition.z
