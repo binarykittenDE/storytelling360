@@ -917,17 +917,17 @@ PrefabInstance:
     - target: {fileID: 4383107288688093969, guid: 4a8c92bf38e4caf4d88566847e0c5db6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4383107288688093969, guid: 4a8c92bf38e4caf4d88566847e0c5db6,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4383107288688093969, guid: 4a8c92bf38e4caf4d88566847e0c5db6,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a8c92bf38e4caf4d88566847e0c5db6, type: 3}
@@ -945,7 +945,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398503105}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: fe6c403d88aff224789e08053b206e67, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 87f29ae6d1a45492689c15c0a081521f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
