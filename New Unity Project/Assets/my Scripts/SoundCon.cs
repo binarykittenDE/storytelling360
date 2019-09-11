@@ -98,6 +98,8 @@ public class SoundCon : MonoBehaviour
         imageTarget.SetActive(true);
         rawImageVideo.SetActive(false);
         videoPlayerObject.SetActive(false);
+
+        closeButton.SetActive(false);
     }
 
     public void CloseVideo()
