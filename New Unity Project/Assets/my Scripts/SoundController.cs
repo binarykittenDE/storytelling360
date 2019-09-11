@@ -19,7 +19,7 @@ public class SoundController : MonoBehaviour
         
     }
 
-    private void ButtonClick()
+    private void AudioButtonClick()
     {
         myAudioSource.Play();
 
@@ -34,6 +34,7 @@ public class SoundController : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
             RaycastHit Hit;
+            bool audio = true;
             if (Physics.Raycast(ray, out Hit))
             {
                 btnName = Hit.transform.name;
@@ -58,10 +59,13 @@ public class SoundController : MonoBehaviour
                         myAudioSource.clip = aClips[5];
                         break;
                     default:
+                        audio = false;
                         break;
                 }
-
-                ButtonClick();
+                if(audio)
+                {
+                    AudioButtonClick();
+                }
             }
         }
     }

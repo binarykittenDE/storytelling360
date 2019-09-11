@@ -53,6 +53,7 @@ public class SoundCon : MonoBehaviour
             RaycastHit Hit;
             if (Physics.Raycast(ray, out Hit))
             {
+                bool video = true;
                 btnName = Hit.transform.name;
                 switch (btnName)
                 {
@@ -75,10 +76,13 @@ public class SoundCon : MonoBehaviour
                         myVideoSource.clip = vClips[5];
                         break;
                     default:
+                        video = false;
                         break;
                 }
-
-                ButtonClick();
+                if(video)
+                {
+                    ButtonClick();
+                }
                 Debug.Log("Button was triggered.");
             }
         }
@@ -86,6 +90,7 @@ public class SoundCon : MonoBehaviour
 
     public void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
+        vp.Stop();
         Debug.Log("Running function EndReached.");
         imageTarget.SetActive(true);
         rawImageVideo.SetActive(false);
