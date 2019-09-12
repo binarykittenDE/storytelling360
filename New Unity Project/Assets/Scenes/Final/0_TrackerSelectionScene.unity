@@ -831,7 +831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blaues Poster
+  m_Text: Terrasse
 --- !u!222 &1657230618
 CanvasRenderer:
   m_ObjectHideFlags: 0
